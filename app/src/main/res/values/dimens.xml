@@ -4,6 +4,10 @@
     <dimen name="activity_main_top_app_bar_elevation">4dp</dimen>
     <dimen name="activity_main_top_app_bar_padding_horizontal">8dp</dimen>
     <dimen name="activity_main_navigation_view_width">320dp</dimen>
+    <dimen name="activity_main_content_panel_margin_start">16dp</dimen>
+    <dimen name="activity_main_content_panel_margin_top">16dp</dimen>
+    <dimen name="activity_main_content_panel_margin_end">16dp</dimen>
+    <dimen name="activity_main_content_panel_margin_bottom">16dp</dimen>
 
     <dimen name="fragment_about_root_padding">16dp</dimen>
     <dimen name="fragment_about_title_text_size">30sp</dimen>
@@ -22,6 +26,8 @@
     <dimen name="fragment_categories_recycler_view_padding_bottom">16dp</dimen>
 
     <dimen name="fragment_recommendation_card_content_padding">16dp</dimen>
+    <dimen name="fragment_recommendation_card_hero_art_land_width">220dp</dimen>
+    <dimen name="fragment_recommendation_card_content_column_land_margin_start">20dp</dimen>
     <dimen name="fragment_recommendation_card_title_margin_top">18dp</dimen>
     <dimen name="fragment_recommendation_card_title_text_size">30sp</dimen>
     <dimen name="fragment_recommendation_card_town_chip_margin_top">10dp</dimen>
