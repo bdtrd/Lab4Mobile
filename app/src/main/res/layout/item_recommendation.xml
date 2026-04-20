@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/item_recommendation_card_margin_bottom"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/parchment_light"
+    app:cardCornerRadius="@dimen/item_recommendation_card_corner_radius"
+    app:cardElevation="@dimen/item_recommendation_card_elevation"
+    app:strokeColor="@color/parchment_stroke"
+    app:strokeWidth="@dimen/item_recommendation_card_stroke_width">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/item_recommendation_content_min_height"
+        android:padding="@dimen/item_recommendation_content_padding">
+
+        <ImageView
+            android:id="@+id/recommendationItemArt"
+            android:layout_width="@dimen/item_recommendation_art_size"
+            android:layout_height="@dimen/item_recommendation_art_size"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/recommendationItemTitle"
+            android:layout_width="@dimen/match_constraints"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_recommendation_title_margin_start"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/hero_ink"
+            android:textSize="@dimen/item_recommendation_title_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/recommendationItemArt"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Башня грифонов" />
+
+        <TextView
+            android:id="@+id/recommendationItemSummary"
+            android:layout_width="@dimen/match_constraints"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_recommendation_title_margin_start"
+            android:layout_marginTop="@dimen/item_recommendation_summary_margin_top"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="@color/hero_muted"
+            android:textSize="@dimen/item_recommendation_summary_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/recommendationItemArt"
+            app:layout_constraintTop_toBottomOf="@id/recommendationItemTitle"
+            tools:text="Что-то про грифонов и про башни." />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

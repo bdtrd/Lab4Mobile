@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="fragment_recommendation_card_hero_art_land_width">220dp</dimen>
+    <dimen name="fragment_recommendation_card_content_column_land_margin_start">20dp</dimen>
+</resources>

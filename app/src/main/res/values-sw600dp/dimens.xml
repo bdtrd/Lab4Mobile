@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="activity_main_navigation_view_width">280dp</dimen>
+    <dimen name="activity_main_content_panel_margin_start">20dp</dimen>
+    <dimen name="activity_main_content_panel_margin_top">16dp</dimen>
+    <dimen name="activity_main_content_panel_margin_end">16dp</dimen>
+    <dimen name="activity_main_content_panel_margin_bottom">16dp</dimen>
+
+    <dimen name="fragment_about_root_padding">24dp</dimen>
+    <dimen name="fragment_categories_root_padding_start">24dp</dimen>
+    <dimen name="fragment_categories_root_padding_end">24dp</dimen>
+    <dimen name="fragment_categories_root_padding_top">24dp</dimen>
+    <dimen name="fragment_recommendation_card_content_padding">24dp</dimen>
+    <dimen name="fragment_recommendations_root_padding_start">24dp</dimen>
+    <dimen name="fragment_recommendations_root_padding_end">24dp</dimen>
+    <dimen name="fragment_recommendations_root_padding_top">24dp</dimen>
+    <dimen name="fragment_settings_root_padding">24dp</dimen>
+
+    <dimen name="fragment_recommendation_card_hero_art_land_width">300dp</dimen>
+    <dimen name="fragment_recommendation_card_content_column_land_margin_start">24dp</dimen>
+    <dimen name="item_category_art_size">108dp</dimen>
+    <dimen name="item_recommendation_art_size">88dp</dimen>
+</resources>

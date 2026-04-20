@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/parchment"
+    android:fillViewport="true"
+    tools:context=".RecommendationCard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fragment_recommendation_card_content_padding">
+
+        <ImageView
+            android:id="@+id/detailHeroArt"
+            android:layout_width="@dimen/match_constraints"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/detailHeroTitle"
+            android:layout_width="@dimen/match_constraints"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_recommendation_card_title_margin_top"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/hero_ink"
+            android:textSize="@dimen/fragment_recommendation_card_title_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detailHeroArt"
+            tools:text="Башня грифонов" />
+
+        <TextView
+            android:id="@+id/detailTownChip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_recommendation_card_town_chip_margin_top"
+            android:background="@drawable/bg_chip"
+            android:paddingHorizontal="@dimen/fragment_recommendation_card_town_chip_padding_horizontal"
+            android:paddingVertical="@dimen/fragment_recommendation_card_town_chip_padding_vertical"
+            android:textColor="@color/hero_navy"
+            android:textSize="@dimen/fragment_recommendation_card_town_chip_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detailHeroTitle"
+            tools:text="Замок" />
+
+        <TextView
+            android:id="@+id/detailLead"
+            android:layout_width="@dimen/match_constraints"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_recommendation_card_lead_margin_top"
+            android:lineSpacingExtra="@dimen/fragment_recommendation_card_lead_line_spacing_extra"
+            android:textColor="@color/hero_muted"
+            android:textSize="@dimen/fragment_recommendation_card_lead_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detailTownChip"
+            tools:text="Короткое описание места." />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="@dimen/match_constraints"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_recommendation_card_overview_card_margin_top"
+            app:cardBackgroundColor="@color/parchment_light"
+            app:cardCornerRadius="@dimen/fragment_recommendation_card_overview_card_corner_radius"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detailLead"
+            app:strokeColor="@color/parchment_stroke"
+            app:strokeWidth="@dimen/fragment_recommendation_card_overview_card_stroke_width">
+
+            <TextView
+                android:id="@+id/detailDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/fragment_recommendation_card_description_line_spacing_extra"
+                android:padding="@dimen/fragment_recommendation_card_overview_content_padding"
+                android:textColor="@color/hero_muted"
+                android:textSize="@dimen/fragment_recommendation_card_description_text_size"
+                tools:text="Длииииииииииинное описание места." />
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
