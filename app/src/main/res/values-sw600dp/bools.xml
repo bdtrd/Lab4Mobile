@@ -1,0 +1,3 @@
+<resources>
+    <bool name="activity_main_is_drawer_permanent">true</bool>
+</resources>

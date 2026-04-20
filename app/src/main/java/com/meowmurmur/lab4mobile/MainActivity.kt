@@ -1,5 +1,6 @@
 package com.meowmurmur.lab4mobile
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -18,6 +19,7 @@ import com.google.android.material.navigation.NavigationView
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
     private lateinit var appBarConfiguration: AppBarConfiguration
+    private var isDrawerPermanent = false
     private val drawerTownItemIds = mutableMapOf<Int, String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,12 +35,21 @@ class MainActivity : AppCompatActivity() {
             R.id.navHostFragment
         ) as NavHostFragment
         navController = navHostFragment.navController
-        appBarConfiguration = AppBarConfiguration(
-            setOf(R.id.categories_graph, R.id.about, R.id.settings),
-            drawerLayout
-        )
+        isDrawerPermanent = resources.getBoolean(R.bool.activity_main_is_drawer_permanent)
+        val topLevelDestinations = setOf(R.id.categories_graph, R.id.about, R.id.settings)
+        appBarConfiguration = if (isDrawerPermanent) {
+            AppBarConfiguration(topLevelDestinations)
+        } else {
+            AppBarConfiguration(topLevelDestinations, drawerLayout)
+        }
 
         setupActionBarWithNavController(navController, appBarConfiguration)
+        if (isDrawerPermanent) {
+            drawerLayout.setScrimColor(Color.TRANSPARENT)
+            drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_OPEN)
+        } else {
+            drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
+        }
         bottomNavigationView.setupWithNavController(navController)
         setupDrawerMenu(navigationView)
         navigationView.setNavigationItemSelectedListener { item ->
@@ -50,7 +61,7 @@ class MainActivity : AppCompatActivity() {
                 NavigationUI.onNavDestinationSelected(item, navController)
             }
 
-            if (handled) {
+            if (handled && !isDrawerPermanent) {
                 drawerLayout.closeDrawers()
             }
             handled
