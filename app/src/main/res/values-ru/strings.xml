@@ -6,6 +6,7 @@
     <string name="nav_categories">Категории</string>
     <string name="nav_about">О приложении</string>
     <string name="nav_settings">Настройки</string>
+    <string name="nav_towns">Города</string>
     <string name="categories_intro_eyebrow">Heroes of Might and Magic III</string>
     <string name="categories_intro_title">Выбери город и провались в постройки</string>
     <string name="categories_intro_body">Приложение сразу открывает список городов. Внутри каждой категории лежат тематические места из Heroes III с готовыми иллюстрациями и короткими атмосферными описаниями.</string>

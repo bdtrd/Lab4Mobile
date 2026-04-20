@@ -1,10 +1,12 @@
 package com.meowmurmur.lab4mobile
 
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
@@ -16,6 +18,7 @@ import com.google.android.material.navigation.NavigationView
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
     private lateinit var appBarConfiguration: AppBarConfiguration
+    private val drawerTownItemIds = mutableMapOf<Int, String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,10 +39,25 @@ class MainActivity : AppCompatActivity() {
         )
 
         setupActionBarWithNavController(navController, appBarConfiguration)
-        navigationView.setupWithNavController(navController)
         bottomNavigationView.setupWithNavController(navController)
+        setupDrawerMenu(navigationView)
+        navigationView.setNavigationItemSelectedListener { item ->
+            val townCategoryId = drawerTownItemIds[item.itemId]
+            val handled = if (townCategoryId != null) {
+                navigateToTownRecommendations(townCategoryId)
+                true
+            } else {
+                NavigationUI.onNavDestinationSelected(item, navController)
+            }
+
+            if (handled) {
+                drawerLayout.closeDrawers()
+            }
+            handled
+        }
         navController.addOnDestinationChangedListener { _, destination, arguments ->
             toolbar.title = resolveToolbarTitle(destination.id, arguments)
+            syncDrawerSelection(navigationView, destination.id, arguments)
         }
     }
 
@@ -73,5 +91,71 @@ class MainActivity : AppCompatActivity() {
 
             else -> getString(R.string.app_name)
         }
+    }
+
+    private fun setupDrawerMenu(navigationView: NavigationView) {
+        val townsSubMenu = navigationView.menu.findItem(R.id.drawer_towns_group).subMenu ?: return
+        townsSubMenu.clear()
+        drawerTownItemIds.clear()
+
+        CityRepository.getCategories().forEachIndexed { index, category ->
+            val itemId = View.generateViewId()
+            drawerTownItemIds[itemId] = category.id
+            townsSubMenu.add(0, itemId, index, category.nameRes).isCheckable = true
+        }
+    }
+
+    private fun navigateToTownRecommendations(categoryId: String) {
+        val currentDestinationId = navController.currentDestination?.id
+        val currentCategoryId = when (currentDestinationId) {
+            R.id.recommendations -> navController.currentBackStackEntry?.arguments
+                ?.getString(Recommendations.ARG_CATEGORY_ID)
+
+            R.id.recommendationCard -> navController.currentBackStackEntry?.arguments
+                ?.getString(RecommendationCard.ARG_CATEGORY_ID)
+
+            else -> null
+        }
+
+        if (currentDestinationId == R.id.recommendations && currentCategoryId == categoryId) {
+            return
+        }
+
+        if (currentDestinationId == R.id.recommendationCard && currentCategoryId == categoryId) {
+            navController.popBackStack()
+            return
+        }
+
+        if (currentDestinationId != R.id.categories) {
+            navController.popBackStack(R.id.categories, false)
+        }
+
+        navController.navigate(
+            R.id.recommendations,
+            Bundle().apply {
+                putString(Recommendations.ARG_CATEGORY_ID, categoryId)
+            }
+        )
+    }
+
+    private fun syncDrawerSelection(
+        navigationView: NavigationView,
+        destinationId: Int,
+        arguments: Bundle?
+    ) {
+        val checkedItemId = when (destinationId) {
+            R.id.categories -> R.id.categories_graph
+            R.id.about -> R.id.about
+            R.id.settings -> R.id.settings
+            R.id.recommendations, R.id.recommendationCard -> {
+                val categoryId = arguments?.getString(Recommendations.ARG_CATEGORY_ID)
+                    ?: arguments?.getString(RecommendationCard.ARG_CATEGORY_ID)
+                drawerTownItemIds.entries.firstOrNull { it.value == categoryId }?.key
+            }
+
+            else -> null
+        }
+
+        checkedItemId?.let(navigationView::setCheckedItem)
     }
 }

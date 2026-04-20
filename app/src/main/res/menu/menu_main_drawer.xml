@@ -14,4 +14,12 @@
             android:icon="@drawable/ic_settings_24"
             android:title="@string/nav_settings" />
     </group>
+
+    <item
+        android:id="@+id/drawer_towns_group"
+        android:title="@string/nav_towns">
+        <menu>
+            <group android:checkableBehavior="single" />
+        </menu>
+    </item>
 </menu>
