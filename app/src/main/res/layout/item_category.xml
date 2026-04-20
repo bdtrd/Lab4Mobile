@@ -49,13 +49,12 @@
             android:layout_marginStart="@dimen/item_category_title_margin_start"
             android:layout_marginTop="@dimen/item_category_subtitle_margin_top"
             android:ellipsize="end"
-            android:maxLines="2"
             android:textColor="@color/hero_muted"
             android:textSize="@dimen/item_category_subtitle_text_size"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/categoryItemArt"
             app:layout_constraintTop_toBottomOf="@id/categoryItemTitle"
-            tools:text="Рыцарские стены, грифоны и вся парадная классика Эрафии." />
+            tools:text="Рыцарские стены, грифоны и вся парадная классика Эрафии. мяу мяу мяу мяу мяу" />
 
         <TextView
             android:id="@+id/categoryItemCount"

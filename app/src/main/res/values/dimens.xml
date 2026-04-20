@@ -13,6 +13,8 @@
     <dimen name="fragment_about_body_line_spacing_extra">5dp</dimen>
     <dimen name="fragment_about_body_padding">18dp</dimen>
     <dimen name="fragment_about_body_text_size">15sp</dimen>
+    <dimen name="fragment_about_signature_margin_top">16dp</dimen>
+    <dimen name="fragment_about_signature_text_size">14sp</dimen>
 
     <dimen name="fragment_categories_root_padding_start">16dp</dimen>
     <dimen name="fragment_categories_root_padding_end">16dp</dimen>

@@ -1,4 +1,5 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:locale="en">
     <string name="rec_castle_colossus_summary">A monumental guardian statue that makes the Castle skyline feel almost ceremonial.</string>
     <string name="rec_castle_colossus_description">Colossus stands over the walls like a stone oath to the whole kingdom. It is worth visiting for the sheer scale, the polished grandeur, and the sense that even the air around it expects discipline.</string>
     <string name="rec_castle_griffin_tower_summary">A wind-beaten tower where griffins turn military routine into a proper spectacle.</string>

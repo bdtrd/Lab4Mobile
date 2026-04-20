@@ -17,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/aboutIntroCard"
         android:layout_width="@dimen/match_constraints"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fragment_about_card_margin_top"
@@ -37,5 +38,17 @@
             android:textColor="@color/hero_muted"
             android:textSize="@dimen/fragment_about_body_text_size" />
     </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/aboutAuthorSignature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fragment_about_signature_margin_top"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/about_author_signature"
+        android:textColor="@color/hero_muted"
+        android:textSize="@dimen/fragment_about_signature_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/aboutIntroCard" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
