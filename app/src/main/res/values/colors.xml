@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="parchment">#FFF3E2</color>
+    <color name="parchment_light">#FFF9F0</color>
+    <color name="parchment_stroke">#FFD8C7</color>
+    <color name="hero_navy">#24324A</color>
+    <color name="hero_gold">#C79A39</color>
+    <color name="hero_ink">#30271C</color>
+    <color name="hero_muted">#6B5E50</color>
 </resources>

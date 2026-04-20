@@ -1,7 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Base.Theme.Lab4Mobile" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/hero_navy</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/hero_gold</item>
+        <item name="colorOnSecondary">@color/hero_ink</item>
+        <item name="android:statusBarColor">@color/hero_navy</item>
+        <item name="android:navigationBarColor">@color/parchment</item>
     </style>
 </resources>

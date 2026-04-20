@@ -1,0 +1,89 @@
+<resources>
+    <dimen name="match_constraints">0dp</dimen>
+
+    <dimen name="activity_main_top_app_bar_elevation">4dp</dimen>
+    <dimen name="activity_main_top_app_bar_padding_horizontal">8dp</dimen>
+    <dimen name="activity_main_navigation_view_width">320dp</dimen>
+
+    <dimen name="fragment_about_root_padding">16dp</dimen>
+    <dimen name="fragment_about_title_text_size">30sp</dimen>
+    <dimen name="fragment_about_card_margin_top">14dp</dimen>
+    <dimen name="fragment_about_card_corner_radius">24dp</dimen>
+    <dimen name="fragment_about_card_stroke_width">1dp</dimen>
+    <dimen name="fragment_about_body_line_spacing_extra">5dp</dimen>
+    <dimen name="fragment_about_body_padding">18dp</dimen>
+    <dimen name="fragment_about_body_text_size">15sp</dimen>
+
+    <dimen name="fragment_categories_root_padding_start">16dp</dimen>
+    <dimen name="fragment_categories_root_padding_end">16dp</dimen>
+    <dimen name="fragment_categories_root_padding_top">16dp</dimen>
+    <dimen name="fragment_categories_recycler_view_padding_bottom">16dp</dimen>
+
+    <dimen name="fragment_recommendation_card_content_padding">16dp</dimen>
+    <dimen name="fragment_recommendation_card_title_margin_top">18dp</dimen>
+    <dimen name="fragment_recommendation_card_title_text_size">30sp</dimen>
+    <dimen name="fragment_recommendation_card_town_chip_margin_top">10dp</dimen>
+    <dimen name="fragment_recommendation_card_town_chip_padding_horizontal">12dp</dimen>
+    <dimen name="fragment_recommendation_card_town_chip_padding_vertical">6dp</dimen>
+    <dimen name="fragment_recommendation_card_town_chip_text_size">13sp</dimen>
+    <dimen name="fragment_recommendation_card_lead_margin_top">14dp</dimen>
+    <dimen name="fragment_recommendation_card_lead_line_spacing_extra">3dp</dimen>
+    <dimen name="fragment_recommendation_card_lead_text_size">16sp</dimen>
+    <dimen name="fragment_recommendation_card_overview_card_margin_top">18dp</dimen>
+    <dimen name="fragment_recommendation_card_overview_card_corner_radius">24dp</dimen>
+    <dimen name="fragment_recommendation_card_overview_card_stroke_width">1dp</dimen>
+    <dimen name="fragment_recommendation_card_overview_content_padding">18dp</dimen>
+    <dimen name="fragment_recommendation_card_description_line_spacing_extra">5dp</dimen>
+    <dimen name="fragment_recommendation_card_description_text_size">15sp</dimen>
+
+    <dimen name="fragment_recommendations_root_padding_start">16dp</dimen>
+    <dimen name="fragment_recommendations_root_padding_end">16dp</dimen>
+    <dimen name="fragment_recommendations_root_padding_top">16dp</dimen>
+    <dimen name="fragment_recommendations_title_margin_bottom">14dp</dimen>
+    <dimen name="fragment_recommendations_title_text_size">28sp</dimen>
+    <dimen name="fragment_recommendations_recycler_view_padding_bottom">16dp</dimen>
+
+    <dimen name="fragment_settings_root_padding">16dp</dimen>
+    <dimen name="fragment_settings_title_text_size">30sp</dimen>
+    <dimen name="fragment_settings_card_margin_top">14dp</dimen>
+    <dimen name="fragment_settings_card_corner_radius">24dp</dimen>
+    <dimen name="fragment_settings_card_stroke_width">1dp</dimen>
+    <dimen name="fragment_settings_card_content_padding">18dp</dimen>
+    <dimen name="fragment_settings_language_title_text_size">18sp</dimen>
+    <dimen name="fragment_settings_language_body_margin_top">10dp</dimen>
+    <dimen name="fragment_settings_language_body_line_spacing_extra">5dp</dimen>
+    <dimen name="fragment_settings_language_body_text_size">15sp</dimen>
+
+    <dimen name="item_category_card_margin_bottom">12dp</dimen>
+    <dimen name="item_category_card_corner_radius">24dp</dimen>
+    <dimen name="item_category_card_elevation">2dp</dimen>
+    <dimen name="item_category_card_stroke_width">1dp</dimen>
+    <dimen name="item_category_content_min_height">116dp</dimen>
+    <dimen name="item_category_content_padding">14dp</dimen>
+    <dimen name="item_category_art_size">92dp</dimen>
+    <dimen name="item_category_title_margin_start">14dp</dimen>
+    <dimen name="item_category_title_text_size">22sp</dimen>
+    <dimen name="item_category_subtitle_margin_top">6dp</dimen>
+    <dimen name="item_category_subtitle_text_size">14sp</dimen>
+    <dimen name="item_category_count_margin_top">10dp</dimen>
+    <dimen name="item_category_count_padding_horizontal">12dp</dimen>
+    <dimen name="item_category_count_padding_vertical">6dp</dimen>
+    <dimen name="item_category_count_text_size">13sp</dimen>
+
+    <dimen name="item_recommendation_card_margin_bottom">12dp</dimen>
+    <dimen name="item_recommendation_card_corner_radius">22dp</dimen>
+    <dimen name="item_recommendation_card_elevation">2dp</dimen>
+    <dimen name="item_recommendation_card_stroke_width">1dp</dimen>
+    <dimen name="item_recommendation_content_min_height">102dp</dimen>
+    <dimen name="item_recommendation_content_padding">14dp</dimen>
+    <dimen name="item_recommendation_art_size">78dp</dimen>
+    <dimen name="item_recommendation_title_margin_start">14dp</dimen>
+    <dimen name="item_recommendation_title_text_size">20sp</dimen>
+    <dimen name="item_recommendation_summary_margin_top">6dp</dimen>
+    <dimen name="item_recommendation_summary_text_size">14sp</dimen>
+
+    <dimen name="nav_header_main_root_padding">20dp</dimen>
+    <dimen name="nav_header_main_title_text_size">22sp</dimen>
+    <dimen name="nav_header_main_subtitle_margin_top">6dp</dimen>
+    <dimen name="nav_header_main_subtitle_text_size">14sp</dimen>
+</resources>

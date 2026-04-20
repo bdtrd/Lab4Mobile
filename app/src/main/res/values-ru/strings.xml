@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Путеводитель по Heroes III</string>
+    <string name="categories_screen_title">Города Эрафии</string>
+    <string name="about_screen_title">О приложении</string>
+    <string name="settings_screen_title">Настройки</string>
+    <string name="nav_categories">Категории</string>
+    <string name="nav_about">О приложении</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="categories_intro_eyebrow">Heroes of Might and Magic III</string>
+    <string name="categories_intro_title">Выбери город и провались в постройки</string>
+    <string name="categories_intro_body">Приложение сразу открывает список городов. Внутри каждой категории лежат тематические места из Heroes III с готовыми иллюстрациями и короткими атмосферными описаниями.</string>
+    <string name="categories_list_title">Города-категории</string>
+    <string name="recommendations_list_title">Подборка построек</string>
+    <string name="recommendations_header_template">Что посмотреть в городе «%1$s»</string>
+    <string name="recommendations_body_template">Здесь собраны постройки и идеи для визита внутри города %1$s. Короткие тексты специально сделаны как дружелюбные плейсхолдеры под дальнейшее ручное наполнение.</string>
+    <string name="recommendation_summary_template">Плейсхолдер для карточки «%1$s» в городе %2$s: сюда удобно вписать короткий тизер, атмосферу места и повод заглянуть именно сюда.</string>
+    <string name="detail_section_notes">Что ещё можно дописать</string>
+    <string name="detail_description_template">Плейсхолдерное описание для локации «%1$s» в городе %2$s. Здесь можно вручную добавить легенду, игровые ассоциации, мини-историю постройки и внятное объяснение, почему она достойна отдельной рекомендации.</string>
+    <string name="detail_notes_template">Черновик для ручного наполнения: добавьте к «%1$s» маршрут посещения, забавную подпись, пару фактов из лора и более конкретную иллюстрацию, если понадобится.</string>
+    <string name="detail_tag_manual_fill">Для ручного наполнения</string>
+    <string name="category_art_content_description">Иллюстрация города %1$s</string>
+    <string name="recommendation_art_content_description">Иллюстрация для рекомендации %1$s</string>
+    <string name="nav_header_title">Меню навигации</string>
+    <string name="nav_header_subtitle">Лаба №4, тема Heroes III</string>
+    <string name="about_intro_title">О приложении</string>
+    <string name="about_intro_body">Это учебное приложение для лабораторной работы №4. Оно показывает города Heroes of Might and Magic III, подборки построек и детальные карточки с короткими описаниями.</string>
+    <string name="settings_intro_title">Настройки</string>
+    <string name="settings_language_title">Язык интерфейса</string>
+    <string name="settings_language_body">Приложение автоматически использует системный язык устройства. Поддерживаются русский и английский.</string>
+
+    <plurals name="recommendation_count">
+        <item quantity="one">%d рекомендация</item>
+        <item quantity="few">%d рекомендации</item>
+        <item quantity="many">%d рекомендаций</item>
+        <item quantity="other">%d рекомендации</item>
+    </plurals>
+
+    <string name="category_castle_name">Замок</string>
+    <string name="category_castle_subtitle">Рыцарские стены, грифоны и вся парадная классика Эрафии.</string>
+    <string name="category_castle_recommendations_title">Рекомендации в Замке</string>
+    <string name="category_rampart_name">Оплот</string>
+    <string name="category_rampart_subtitle">Лесная столица эльфов, дендроидов и дорогущих драконов.</string>
+    <string name="category_rampart_recommendations_title">Рекомендации в Оплоте</string>
+    <string name="category_tower_name">Башня</string>
+    <string name="category_tower_subtitle">Высокомерная магократия со шпилями, джиннами и библиотекой.</string>
+    <string name="category_tower_recommendations_title">Рекомендации в Башне</string>
+    <string name="category_inferno_name">Инферно</string>
+    <string name="category_inferno_subtitle">Демонический курорт с огнём, серой и очень сомнительным сервисом.</string>
+    <string name="category_inferno_recommendations_title">Рекомендации в Инферно</string>
+    <string name="category_necropolis_name">Некрополис</string>
+    <string name="category_necropolis_subtitle">Город нежити, где сервис мёртв, но зато стабилен.</string>
+    <string name="category_necropolis_recommendations_title">Рекомендации в Некрополисе</string>
+    <string name="category_dungeon_name">Подземелье</string>
+    <string name="category_dungeon_subtitle">Подземная столица варлоков, гарпий и светящихся кристаллов.</string>
+    <string name="category_dungeon_recommendations_title">Рекомендации в Подземелье</string>
+    <string name="category_stronghold_name">Цитадель</string>
+    <string name="category_stronghold_subtitle">Грубая, шумная и честная варварская урбанистика.</string>
+    <string name="category_stronghold_recommendations_title">Рекомендации в Цитадели</string>
+    <string name="category_fortress_name">Крепость</string>
+    <string name="category_fortress_subtitle">Болотная архитектура ящеров, василисков и упрямых виверн.</string>
+    <string name="category_fortress_recommendations_title">Рекомендации в Крепости</string>
+
+    <string name="rec_castle_colossus">Колосс</string>
+    <string name="rec_castle_griffin_tower">Башня грифонов</string>
+    <string name="rec_castle_lighthouse">Маяк</string>
+    <string name="rec_castle_portal_of_glory">Портал славы</string>
+    <string name="rec_castle_training_grounds">Тренировочные площадки</string>
+
+    <string name="rec_rampart_dragon_cliffs">Драконьи утёсы</string>
+    <string name="rec_rampart_enchanted_spring">Зачарованный источник</string>
+    <string name="rec_rampart_mystic_pond">Мистический пруд</string>
+    <string name="rec_rampart_unicorn_glade">Поляна единорогов</string>
+
+    <string name="rec_tower_library">Библиотека</string>
+    <string name="rec_tower_lookout_tower">Смотровая башня</string>
+    <string name="rec_tower_mage_tower">Башня магов</string>
+    <string name="rec_tower_skyship">Небесный корабль</string>
+
+    <string name="rec_inferno_brimstone_storm_clouds">Серные грозовые тучи</string>
+    <string name="rec_inferno_fire_lake">Огненное озеро</string>
+    <string name="rec_inferno_forsaken_palace">Заброшенный дворец</string>
+    <string name="rec_inferno_kennels">Псарня</string>
+
+    <string name="rec_necropolis_estate">Поместье</string>
+    <string name="rec_necropolis_mausoleum">Мавзолей</string>
+    <string name="rec_necropolis_skeleton_transformer">Преобразователь скелетов</string>
+
+    <string name="rec_dungeon_chapel_of_stilled_voices">Часовня смолкших голосов</string>
+    <string name="rec_dungeon_dragon_cave">Пещера драконов</string>
+    <string name="rec_dungeon_labyrinth">Лабиринт</string>
+    <string name="rec_dungeon_mana_vortex">Вихрь маны</string>
+    <string name="rec_dungeon_mushroom_rings">Грибные круги</string>
+
+    <string name="rec_stronghold_behemoth_lair">Логово бегемотов</string>
+    <string name="rec_stronghold_hall_of_valhalla">Зал Вальхаллы</string>
+    <string name="rec_stronghold_mess_hall">Столовая</string>
+    <string name="rec_stronghold_warlords_monument">Памятник вождям</string>
+
+    <string name="rec_fortress_basilisk_pit">Яма василисков</string>
+    <string name="rec_fortress_carnivorous_plant">Плотоядное растение</string>
+    <string name="rec_fortress_gnoll_hut">Хижина гноллов</string>
+    <string name="rec_fortress_gorgon_lair">Логово горгон</string>
+    <string name="rec_fortress_hydra_pond">Пруд гидр</string>
+</resources>

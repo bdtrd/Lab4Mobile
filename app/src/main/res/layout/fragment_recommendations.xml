@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/parchment"
+    android:paddingEnd="@dimen/fragment_recommendations_root_padding_end"
+    android:paddingStart="@dimen/fragment_recommendations_root_padding_start"
+    android:paddingTop="@dimen/fragment_recommendations_root_padding_top"
+    tools:context=".Recommendations">
+
+    <TextView
+        android:id="@+id/recommendationsTitle"
+        android:layout_width="@dimen/match_constraints"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fragment_recommendations_title_margin_bottom"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/hero_ink"
+        android:textSize="@dimen/fragment_recommendations_title_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Рекомендации в Оплоте" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recommendationsRecyclerView"
+        android:layout_width="@dimen/match_constraints"
+        android:layout_height="@dimen/match_constraints"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/fragment_recommendations_recycler_view_padding_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recommendationsTitle"
+        tools:listitem="@layout/item_recommendation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

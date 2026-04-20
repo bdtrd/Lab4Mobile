@@ -1,0 +1,77 @@
+<resources>
+    <string name="rec_castle_colossus_summary">A monumental guardian statue that makes the Castle skyline feel almost ceremonial.</string>
+    <string name="rec_castle_colossus_description">Colossus stands over the walls like a stone oath to the whole kingdom. It is worth visiting for the sheer scale, the polished grandeur, and the sense that even the air around it expects discipline.</string>
+    <string name="rec_castle_griffin_tower_summary">A wind-beaten tower where griffins turn military routine into a proper spectacle.</string>
+    <string name="rec_castle_griffin_tower_description">Griffin Tower is loud, proud, and never really calm, which is exactly why it works as a landmark. Come here for the wingbeats, the sharp city views, and that very Castle mix of order and raw force.</string>
+    <string name="rec_castle_lighthouse_summary">A bright coastal watchpoint that gives the faction a rare touch of quiet romance.</string>
+    <string name="rec_castle_lighthouse_description">The Lighthouse feels calmer than most Castle buildings, but it still carries the same polished dignity. It is a good stop if you want open horizons, clear light, and a break from the heavier military architecture.</string>
+    <string name="rec_castle_portal_of_glory_summary">The grand celestial gate through which the town welcomes its most glorious allies.</string>
+    <string name="rec_castle_portal_of_glory_description">Portal of Glory is pure Castle drama done correctly: radiant, formal, and unapologetically majestic. Visit it for the shining stonework and the feeling that the town really believes greatness should be visible from a distance.</string>
+    <string name="rec_castle_training_grounds_summary">A disciplined parade field where every drill looks one step away from becoming a tournament.</string>
+    <string name="rec_castle_training_grounds_description">The Training Grounds capture the practical side of Castle without losing the faction charm. There is constant motion here, plenty of steel and ceremony, and an atmosphere that makes even practice look important.</string>
+
+    <string name="rec_rampart_dragon_cliffs_summary">High green cliffs where the forest opens up into a dragon domain.</string>
+    <string name="rec_rampart_dragon_cliffs_description">Dragon Cliffs combine the elegance of Rampart with the scale of creatures that clearly answer to no one. It is a beautiful place for broad views, fresh air, and the quiet thrill of standing near something ancient and expensive.</string>
+    <string name="rec_rampart_enchanted_spring_summary">A luminous woodland spring that feels like a healing spell turned into a landscape.</string>
+    <string name="rec_rampart_enchanted_spring_description">Enchanted Spring is one of those places where Rampart becomes less of a town and more of a living sanctuary. People come here for the water, the light, and the gentle feeling that the forest is choosing not to be dangerous for a moment.</string>
+    <string name="rec_rampart_mystic_pond_summary">A quiet pond with the kind of magic that prefers whispers to fireworks.</string>
+    <string name="rec_rampart_mystic_pond_description">Mystic Pond is subtle, but that subtlety is exactly the point. It rewards slow looking, still air, and the unmistakable sense that the local magic works best when nobody tries to impress anyone.</string>
+    <string name="rec_rampart_unicorn_glade_summary">A radiant glade where beauty and danger stand side by side without any contradiction.</string>
+    <string name="rec_rampart_unicorn_glade_description">Unicorn Glade is the most storybook location in Rampart, though the unicorns themselves are far from decorative. Stop here for silver light, proud silence, and the classic forest-faction lesson that grace does not mean harmlessness.</string>
+
+    <string name="rec_tower_library_summary">A careful collection of elite knowledge stacked behind elegant walls and stronger egos.</string>
+    <string name="rec_tower_library_description">The Library is where Tower feels most like a civilization built on intellect first and comfort second. Visit it for rare tomes, disciplined quiet, and the mild suspicion that every shelf knows more than it tells.</string>
+    <string name="rec_tower_lookout_tower_summary">A high observation point built for scholars who still want control over the horizon.</string>
+    <string name="rec_tower_lookout_tower_description">Lookout Tower offers one of the clearest views of the surrounding land and of how fiercely the town pursues height. It is a fitting stop for anyone who enjoys wind, elevation, and architecture that prefers command to warmth.</string>
+    <string name="rec_tower_mage_tower_summary">A proud arcane spire where study and power are deliberately impossible to separate.</string>
+    <string name="rec_tower_mage_tower_description">Mage Tower feels like the ideological center of the entire faction: elegant, cold, and intensely self-assured. Come here for spellbound atmosphere, layered stonework, and the sense that every room was built to prove a point.</string>
+    <string name="rec_tower_skyship_summary">A floating marvel that turns the Tower faction from academic to openly impossible.</string>
+    <string name="rec_tower_skyship_description">Skyship is the kind of location that makes Tower memorable even for people tired of wizard arrogance. It balances engineering, magic, and spectacle so well that the whole place feels like a victory lap over gravity itself.</string>
+
+    <string name="rec_inferno_brimstone_storm_clouds_summary">Sulfurous skies rolling above the town like a weather forecast written by demons.</string>
+    <string name="rec_inferno_brimstone_storm_clouds_description">Brimstone Storm Clouds are less a building than a full Inferno mood made visible. Visit them for the violent sky, the glowing air, and the reminder that this faction treats atmosphere as a weapon.</string>
+    <string name="rec_inferno_fire_lake_summary">A molten basin that turns the whole district into a furnace-lit amphitheater.</string>
+    <string name="rec_inferno_fire_lake_description">Fire Lake is beautiful in the most hostile way possible, which makes it perfect for Inferno. The light reflects everywhere, the heat never really relaxes, and the scene looks designed to intimidate before anything even attacks.</string>
+    <string name="rec_inferno_forsaken_palace_summary">A dark palace where ruined luxury has somehow become even more theatrical.</string>
+    <string name="rec_inferno_forsaken_palace_description">Forsaken Palace sells grandeur, decay, and menace all at the same time. It is a strong stop if you like the feeling of walking through a place that remembers glory but decided bitterness looked better on it.</string>
+    <string name="rec_inferno_kennels_summary">A brutal enclosure where the faction keeps its snarling discipline on a chain.</string>
+    <string name="rec_inferno_kennels_description">The Kennels are noisy, aggressive, and entirely honest about the town character. Come here for the raw energy, the restless movement, and the unmistakable sense that Inferno never truly wants visitors to feel safe.</string>
+
+    <string name="rec_necropolis_estate_summary">A noble estate whose elegance became much colder after death stopped being a barrier.</string>
+    <string name="rec_necropolis_estate_description">Estate feels refined, but the refinement in Necropolis always comes with a chill underneath it. It is memorable for the dignified silhouette, the severe quiet, and the eerie impression of old wealth that never learned how to rest.</string>
+    <string name="rec_necropolis_mausoleum_summary">A solemn monument where stone, silence, and status are all treated equally seriously.</string>
+    <string name="rec_necropolis_mausoleum_description">Mausoleum is one of the most openly ceremonial places in Necropolis. Visit it for monumental architecture, dense atmosphere, and the strange calm that arrives only after you accept that the town takes death personally and professionally.</string>
+    <string name="rec_necropolis_skeleton_transformer_summary">The most infamous service in town and still one of its most unforgettable attractions.</string>
+    <string name="rec_necropolis_skeleton_transformer_description">Skeleton Transformer is exactly the kind of landmark that makes Necropolis impossible to confuse with any other faction. It is morbid, efficient, and oddly fascinating, which is honestly the best summary of the entire town.</string>
+
+    <string name="rec_dungeon_chapel_of_stilled_voices_summary">A hushed subterranean chapel where silence feels imposed rather than peaceful.</string>
+    <string name="rec_dungeon_chapel_of_stilled_voices_description">Chapel of Stilled Voices is beautiful in the unsettling Dungeon way: dark, elegant, and slightly too still. It is a strong place for echoing stone, ritual mood, and the sensation that the walls remember more than they should.</string>
+    <string name="rec_dungeon_dragon_cave_summary">A deep cavern where the faction keeps its most convincing argument in reserve.</string>
+    <string name="rec_dungeon_dragon_cave_description">Dragon Cave is all scale, shadow, and restrained menace. Visit it for the raw underground grandeur and for the unmistakable feeling that Dungeon diplomacy gets much easier once dragons enter the room.</string>
+    <string name="rec_dungeon_labyrinth_summary">A layered maze that turns orientation itself into part of the attraction.</string>
+    <string name="rec_dungeon_labyrinth_description">Labyrinth gives the town a proper underworld heart: twisting, calculated, and a little insulting to anyone who expected direct routes. It rewards curiosity, caution, and the ability to enjoy being temporarily outsmarted by architecture.</string>
+    <string name="rec_dungeon_mana_vortex_summary">A magical core that feels like the town concentrated its ambition into a single pulse.</string>
+    <string name="rec_dungeon_mana_vortex_description">Mana Vortex is one of the clearest expressions of Dungeon power: dangerous, efficient, and impossible to ignore. The whole location hums with arcane pressure, as if the air has been sharpened for spellwork.</string>
+    <string name="rec_dungeon_mushroom_rings_summary">Bioluminescent fungal circles that make the underworld feel unexpectedly enchanted.</string>
+    <string name="rec_dungeon_mushroom_rings_description">Mushroom Rings soften the faction visual style just enough to make the rest of Dungeon look even harsher by contrast. They are worth seeing for the glow, the strange organic geometry, and the sense that this cave life follows rules of its own.</string>
+
+    <string name="rec_stronghold_behemoth_lair_summary">A rough lair where size and intimidation do all the decorative work.</string>
+    <string name="rec_stronghold_behemoth_lair_description">Behemoth Lair is brutal, direct, and exactly as overwhelming as the name suggests. It is the place to visit when you want to feel Stronghold at maximum volume, with no polish between you and raw power.</string>
+    <string name="rec_stronghold_hall_of_valhalla_summary">A warlike hall where victory is treated as both memory and expectation.</string>
+    <string name="rec_stronghold_hall_of_valhalla_description">Hall of Valhalla turns Stronghold culture into architecture: loud, proud, and full of heroic self-belief. Come here for carved stone, tribal ceremony, and the sense that every gathering is halfway to becoming a saga.</string>
+    <string name="rec_stronghold_mess_hall_summary">A communal hall that proves even barbarian routine can have real charm.</string>
+    <string name="rec_stronghold_mess_hall_description">Mess Hall is more grounded than the faction grand monuments, and that makes it one of the most human places in Stronghold. It works through noise, warmth, and the lively disorder of a town that would rather feast together than sit quietly.</string>
+    <string name="rec_stronghold_warlords_monument_summary">A severe monument built to keep pride visible and history intimidating.</string>
+    <string name="rec_stronghold_warlords_monument_description">Warlords Monument stands like a permanent statement that Stronghold respects force above polish. It is worth a stop for the stark silhouette, the sense of lineage, and the unapologetic hero worship carved into the place.</string>
+
+    <string name="rec_fortress_basilisk_pit_summary">A swampy arena where danger is slow, heavy, and absolutely deliberate.</string>
+    <string name="rec_fortress_basilisk_pit_description">Basilisk Pit is one of those Fortress locations that feels older than the roads leading to it. Visit for the damp air, the reptilian tension, and the simple pleasure of admiring something ancient from a safer distance.</string>
+    <string name="rec_fortress_carnivorous_plant_summary">A monstrous bloom that makes the whole swamp feel hungry rather than merely wild.</string>
+    <string name="rec_fortress_carnivorous_plant_description">Carnivorous Plant adds a perfect touch of botanical menace to Fortress. It is memorable because it looks almost decorative until you pay attention, and then the entire mood shifts in exactly the right direction.</string>
+    <string name="rec_fortress_gnoll_hut_summary">A practical marsh dwelling that introduces the faction without any unnecessary drama.</string>
+    <string name="rec_fortress_gnoll_hut_description">Gnoll Hut is simple, functional, and far more charming than it has any right to be. It makes a good first stop because it shows the everyday life behind the swamp monsters and giant beasts.</string>
+    <string name="rec_fortress_gorgon_lair_summary">A dense lair where the faction trading in fear becomes very easy to understand.</string>
+    <string name="rec_fortress_gorgon_lair_description">Gorgon Lair feels heavy, watchful, and a little hostile even before anything moves. Come here for the oppressive atmosphere and for a close look at how Fortress turns the swamp into a home for creatures no one sane wants to annoy.</string>
+    <string name="rec_fortress_hydra_pond_summary">A murky pond where the calm surface hides one of the most dramatic residents of the faction.</string>
+    <string name="rec_fortress_hydra_pond_description">Hydra Pond is all still water, looming depth, and excellent swamp theatrics. It is a fitting late stop in Fortress because it wraps together the wet beauty of the faction and its talent for making every silence feel suspicious.</string>
+</resources>

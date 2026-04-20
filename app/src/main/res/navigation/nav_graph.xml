@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categories_graph">
+
+    <navigation
+        android:id="@+id/categories_graph"
+        app:startDestination="@id/categories">
+
+        <fragment
+            android:id="@+id/categories"
+            android:name="com.meowmurmur.lab4mobile.Categories"
+            android:label="@string/categories_screen_title">
+            <action
+                android:id="@+id/action_categories_to_recommendations"
+                app:destination="@id/recommendations" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/recommendations"
+            android:name="com.meowmurmur.lab4mobile.Recommendations"
+            android:label="@string/app_name">
+            <argument
+                android:name="categoryId"
+                app:argType="string" />
+            <action
+                android:id="@+id/action_recommendations_to_recommendationCard"
+                app:destination="@id/recommendationCard" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/recommendationCard"
+            android:name="com.meowmurmur.lab4mobile.RecommendationCard"
+            android:label="@string/app_name">
+            <argument
+                android:name="categoryId"
+                app:argType="string" />
+            <argument
+                android:name="recommendationId"
+                app:argType="string" />
+        </fragment>
+    </navigation>
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.meowmurmur.lab4mobile.AboutFragment"
+        android:label="@string/about_screen_title" />
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.meowmurmur.lab4mobile.SettingsFragment"
+        android:label="@string/settings_screen_title" />
+
+</navigation>
